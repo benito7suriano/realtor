@@ -11,6 +11,7 @@ export const fetchApi = async (url) => {
     }
     })
     const data = res.data
+    return data
   } catch (error) {
     console.error(error)
   }

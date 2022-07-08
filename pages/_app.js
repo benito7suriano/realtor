@@ -7,6 +7,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 import Layout from '../components/Layout'
 
 function MyApp({ Component, pageProps }) {
+  console.log(Component)
   return (
     <>
       <Head></Head>
